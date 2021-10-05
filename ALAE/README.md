@@ -6,6 +6,7 @@ https://github.com/podgorskiy/ALAE
 
 ## 使い方
 
+### 初期設定
 1. ALAE直下へ移動
 2. export PYTHONPATH=$PYTHONPATH:$(pwd)
 3. このレポジトリにあるmake_generation_figure_own.pyとmake_recon_figure_STL10.pyをmake_figuresフォルダへ移動
