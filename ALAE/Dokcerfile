@@ -1,0 +1,13 @@
+FROM pytorch/pytorch:1.3-cuda10.1-cudnn7-devel
+RUN pip install packaging
+RUN pip install imageio
+RUN pip install numpy
+RUN pip install scipy
+RUN pip install tqdm
+RUN pip install dlutils
+RUN pip install bimpy
+RUN pip install torchvision
+RUN pip install sklearn
+RUN pip install yacs
+RUN pip install matplotlib
+RUN pip install dareblopy
